@@ -1,0 +1,24 @@
+{
+  "name": "watch-httpd",
+  "version": "0.0.4",
+  "description": "watch httpd file and restart",
+  "main": "index.js",
+  "author": "xunuo <i@xunuo.com>",
+  "keywords": [
+    "tools"
+  ],
+  "license": "Apache",
+  "dependencies": {
+    "log4js": "*"
+  },
+  "devDependencies": {
+    "log4js": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xunuo/watch-httpd/git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  }
+}
