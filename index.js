@@ -19,7 +19,7 @@ fs.watchFile('httpd.conf', function (curr, prev) {
   console.log('the current mtime is: ' + curr.mtime);
   console.log('the previous mtime was: ' + prev.mtime);
 
-  child = exec('/sbin/service httpd restart',
+  child = exec('/sbin/service httpd restart',   // xampp : /opt/lampp/lampp restartapache
     function (error, stdout, stderr) {
         logger.error(stderr);
         console.log('stdout: ' + stdout);
